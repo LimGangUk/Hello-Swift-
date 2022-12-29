@@ -12,8 +12,21 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.orange)
             Text("Hello, Swift!")
+                .foregroundColor(Color.orange)
+                .font(.system(size : 40, weight: .black, design: .serif))
+            HStack {
+                Text("subText1")
+                    .foregroundColor(Color.yellow)
+                .font(.system(size : 20, weight: .black, design: .serif))
+                Spacer()
+                    .frame(width: 40)
+                Text("subText2")
+                    .foregroundColor(Color.yellow)
+                .font(.system(size : 20, weight: .black, design: .serif))
+                
+            }
         }
         .padding()
     }
