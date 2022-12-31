@@ -20,7 +20,7 @@ struct ContentView: View {
                     Circle().stroke(.gray, lineWidth: 4)            //테두리에 선 긋기
                 }
                 .shadow(radius: 6)//테두리 그림자
-            
+                        
             Text("Hello, Swift!")
                 .foregroundColor(Color(hue: 0.84, saturation: 0.663, brightness: 0.996))
                 .font(.system(size : 40, weight: .black, design: .serif))
